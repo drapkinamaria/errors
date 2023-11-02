@@ -17,11 +17,11 @@ for list in range(0, len(folder_list)):
         shutil.rmtree(new_path)
     new_path = ""
 
-subprocess.run(
-    ["black", r"C:\Users\Пользователь\PycharmProjects\pythonProject"],
-    stdout=True,
-    check=True,
-)
+# subprocess.run(
+#     ["black", r"C:\Users\Пользователь\PycharmProjects\pythonProject"],
+#     stdout=True,
+#     check=True,
+# )
 
 so_new_path = make_path + "\\errors.zip"
 if os.path.exists("errors.zip") == "False":

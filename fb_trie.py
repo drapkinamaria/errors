@@ -55,7 +55,6 @@ for word in flat_list:
 
 
 def search(word, maxCost):
-
     currentRow = range(len(word) + 1)
 
     results = []
@@ -69,12 +68,10 @@ def search(word, maxCost):
 
 
 def searchRecursive(node, letter, word, previousRow, results, maxCost):
-
     columns = len(word) + 1
     currentRow = [previousRow[0] + 1]
 
     for column in range(1, columns):
-
         insertCost = currentRow[column - 1] + 1
         deleteCost = previousRow[column] + 1
 

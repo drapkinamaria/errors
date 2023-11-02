@@ -8,5 +8,5 @@ def main():
     print("The result is {}".format(z))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

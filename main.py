@@ -1,4 +1,6 @@
+import os
 import subprocess
+
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -7,15 +9,17 @@ import subprocess
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    subprocess.run(
-        ["black", r"C:\Users\Пользователь\PycharmProjects\pythonProject"],
-        stdout=True,
-        check=True,
-    )
+    print(f"Hi, {name}")
+    # Press Ctrl+F8 to toggle the breakpoint.
+    # subprocess.run(
+    # ["black", r"C:\Users\Маша\PycharmProjects"],
+    # stdout=True,
+    # check=True,
+    # )
+
 
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if __name__ == "__main__":
+    print_hi("PyCharm")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

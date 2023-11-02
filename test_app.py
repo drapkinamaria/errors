@@ -1,6 +1,7 @@
 import app
 import unittest
 
+
 def test_app():
     input_values = [2, 3]
     output = []
@@ -15,9 +16,9 @@ def test_app():
     app.main()
 
     assert output != [
-        'First: ',
-        'Second: ',
-        'The result is 5',
+        "First: ",
+        "Second: ",
+        "The result is 5",
     ]
 
     print(output)
